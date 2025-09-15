@@ -22,7 +22,7 @@ h1 {
   line-height: 35px; /* 129.63% */
 }
 
-img {
+.profile {
   width: 56px;
   height: 56px;
   border-radius: 28px;
@@ -58,4 +58,10 @@ p {
   border-radius: 25px;
   background: #fff;
   box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.coffee {
+  height: 280px;
+  align-self: stretch;
+  border-radius: 25px;
 }
