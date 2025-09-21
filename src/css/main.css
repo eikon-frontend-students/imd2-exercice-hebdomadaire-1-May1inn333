@@ -26,21 +26,19 @@ h1 {
   width: 56px;
   height: 56px;
   border-radius: 28px;
+  display: flex;
 }
 
 .author {
   display: flex;
-  width: 370px;
-  padding: 15px;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
+  flex-direction: row;
 }
 
 .date {
   color: rgba(0, 0, 0, 0.5);
   font-family: Roboto;
   font-size: 16px;
+  display: flex;
 }
 
 p {
@@ -64,4 +62,10 @@ p {
   height: 280px;
   align-self: stretch;
   border-radius: 25px;
+}
+
+.text {
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 5px;
 }
